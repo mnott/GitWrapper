@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>icon.png</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/ruby</string>
+			<key>Shell Script File</key>
+			<string>script.rb</string>
+			<key>Title</key>
+			<string>GitWrapper</string>
+			<key>After</key>
+			<string>paste-result</string>
+		</dict>
+	</array>
+	<key>Credits</key>
+	<array>
+		<key>Name</key>
+		<string>Matthias Nott</string>
+		<key>Link</key>
+		<string>http://www.mnott.de</string>
+	</array>
+	<key>Extension Description</key>
+	<string>WordWrap for Git Commits at 72 characters</string>
+	<key>Extension Identifier</key>
+	<string>org.mnsoft.popclip.extension.gitwrapper</string>
+	<key>Extension Name</key>
+	<string>GitWrapper</string>
+	<key>Version</key>
+	<integer>2</integer>
+</dict>
+</plist>
